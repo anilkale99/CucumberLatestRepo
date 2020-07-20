@@ -1,4 +1,12 @@
 -------------------------------------------------------------------------------
 Test set: com.basic.getRequestBasicsSD.RunnerGETRequestTest
 -------------------------------------------------------------------------------
-Tests run: 3, Failures: 0, Errors: 0, Skipped: 3, Time elapsed: 0.342 sec
+Tests run: 3, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 12.68 sec <<< FAILURE!
+Test my Get Method101(First GET Rest Assured test101)  Time elapsed: 1.704 sec  <<< FAILURE!
+java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:86)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at org.junit.Assert.assertTrue(Assert.java:52)
+	at com.basic.getRequestBasicsSD.GETRequestTestSD.user_checks_data_at_path_having_value_in_jason(GETRequestTestSD.java:42)
+	at ?.user checks data at path "MRData.CircuitTable.Circuits[3].circuitId" having value "MOnaco" in jason(file:///D:/IBM/workspace/CucumberLatestBuild/src/test/resources/com/basic/getRequestBasicsFF/GetRequestTesting.feature:10)
+

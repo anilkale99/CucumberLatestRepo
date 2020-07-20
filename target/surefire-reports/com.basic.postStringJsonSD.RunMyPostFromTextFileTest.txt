@@ -1,8 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: com.basic.postStringJsonSD.RunMyPostFromTextFileTest
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.444 sec <<< FAILURE!
-POST request with json as string testing(POST request with json as string)  Time elapsed: 0.413 sec  <<< ERROR!
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.367 sec <<< FAILURE!
+POST request with json as string testing(POST request with json as string)  Time elapsed: 0.366 sec  <<< ERROR!
 javax.net.ssl.SSLHandshakeException: Received fatal alert: handshake_failure
 	at sun.security.ssl.Alerts.getSSLException(Unknown Source)
 	at sun.security.ssl.Alerts.getSSLException(Unknown Source)
@@ -21,14 +21,11 @@ javax.net.ssl.SSLHandshakeException: Received fatal alert: handshake_failure
 	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82)
 	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:55)
 	at org.apache.http.client.HttpClient$execute$0.call(Unknown Source)
-	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:47)
-	at org.apache.http.client.HttpClient$execute$0.call(Unknown Source)
 	at io.restassured.internal.RequestSpecificationImpl$RestAssuredHttpBuilder.doRequest(RequestSpecificationImpl.groovy:2055)
 	at io.restassured.internal.http.HTTPBuilder.post(HTTPBuilder.java:350)
 	at io.restassured.internal.http.HTTPBuilder$post$3.call(Unknown Source)
 	at io.restassured.internal.RequestSpecificationImpl.sendRequest(RequestSpecificationImpl.groovy:1181)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.GeneratedMethodAccessor83.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
 	at java.lang.reflect.Method.invoke(Unknown Source)
 	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:107)
@@ -51,8 +48,7 @@ javax.net.ssl.SSLHandshakeException: Received fatal alert: handshake_failure
 	at io.restassured.internal.filter.FilterContextImpl.next(FilterContextImpl.groovy:72)
 	at io.restassured.filter.FilterContext$next.call(Unknown Source)
 	at io.restassured.internal.RequestSpecificationImpl.applyPathParamsAndSendRequest(RequestSpecificationImpl.groovy:1655)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.GeneratedMethodAccessor77.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
 	at java.lang.reflect.Method.invoke(Unknown Source)
 	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:107)
@@ -65,8 +61,7 @@ javax.net.ssl.SSLHandshakeException: Received fatal alert: handshake_failure
 	at org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.callCurrent(PogoInterceptableSite.java:55)
 	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:203)
 	at io.restassured.internal.RequestSpecificationImpl.applyPathParamsAndSendRequest(RequestSpecificationImpl.groovy:1661)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.GeneratedMethodAccessor76.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
 	at java.lang.reflect.Method.invoke(Unknown Source)
 	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:107)

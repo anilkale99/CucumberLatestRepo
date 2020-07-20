@@ -1,4 +1,16 @@
 -------------------------------------------------------------------------------
 Test set: com.basic.postWithDataTableSD.RunMyPostWithDataTableTest
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 1, Time elapsed: 0.033 sec
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE!
+Test my POST request test(First Rest Assured test POST)  Time elapsed: 0 sec  <<< ERROR!
+java.nio.file.NoSuchFileException: D:\IBM\workspace\CucuRestAssured\src\test\java\com\basic\postFromTextFileSD\user.json
+	at sun.nio.fs.WindowsException.translateToIOException(Unknown Source)
+	at sun.nio.fs.WindowsException.rethrowAsIOException(Unknown Source)
+	at sun.nio.fs.WindowsException.rethrowAsIOException(Unknown Source)
+	at sun.nio.fs.WindowsFileSystemProvider.newByteChannel(Unknown Source)
+	at java.nio.file.Files.newByteChannel(Unknown Source)
+	at java.nio.file.Files.newByteChannel(Unknown Source)
+	at java.nio.file.Files.readAllBytes(Unknown Source)
+	at com.basic.postWithDataTableSD.MyPostWithDataTable.user_hit_the_post_request_with_json_data(MyPostWithDataTable.java:36)
+	at ?.user hit the post request with "Tom" name(file:///D:/IBM/workspace/CucumberLatestBuild/src/test/resources/com/basic/postWithDataTableFF/PostWithDataTable.feature:5)
+
