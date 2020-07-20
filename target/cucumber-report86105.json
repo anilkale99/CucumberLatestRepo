@@ -1,0 +1,36 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2020-07-20T10:02:47.728Z",
+        "line": 4,
+        "name": "Test my Delete request",
+        "description": "",
+        "id": "compare-entire-json;test-my-delete-request",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user compare two json string",
+            "match": {
+              "location": "com.basic.compareEntireJson.TestCompareJson.user_compare_two_json_string()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      }
+    ],
+    "name": "compare entire json",
+    "description": "",
+    "id": "compare-entire-json",
+    "keyword": "Feature",
+    "uri": "classpath:com/basic/compareEntireJson/comparejson.feature",
+    "tags": []
+  }
+]

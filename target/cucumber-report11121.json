@@ -1,0 +1,153 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2020-07-20T10:02:52.894Z",
+        "line": 5,
+        "name": "Test my Get Method111",
+        "description": "",
+        "id": "first-get-rest-assured-test105;test-my-get-method111",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 6,
+            "name": "user start the rest asured test",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 7,
+            "name": "user hit the get request",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 8,
+            "name": "user checks the \"30\" count or size",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 9,
+            "name": "user checks data at path \"MRData.limit\" having value \"30\" in jason",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 10,
+            "name": "user checks data at path \"MRData.CircuitTable.Circuits[0].circuitId\" having value \"albert_park\" in jason",
+            "match": {},
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Important"
+          },
+          {
+            "name": "@Smoke"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-07-20T10:02:52.915Z",
+        "line": 13,
+        "name": "Test my Get Method112",
+        "description": "",
+        "id": "first-get-rest-assured-test105;test-my-get-method112",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 14,
+            "name": "user start the rest asured test",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 15,
+            "name": "user hit the get request",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 16,
+            "name": "user checks the \"30\" count or size",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 17,
+            "name": "user checks data at path \"MRData.limit\" having value \"30\" in jason",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 18,
+            "name": "user checks data at path \"MRData.CircuitTable.Circuits[0].circuitId\" having value \"albert_park\" in jason",
+            "match": {},
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Important"
+          },
+          {
+            "name": "@Smoke"
+          },
+          {
+            "name": "@Regression"
+          }
+        ]
+      }
+    ],
+    "name": "First GET Rest Assured test105",
+    "description": "",
+    "id": "first-get-rest-assured-test105",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/com/basic/tagsOfcucumberFF/GetRequestTesting.feature",
+    "tags": [
+      {
+        "name": "@Important",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

@@ -1,0 +1,42 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2020-07-20T10:02:52.304Z",
+        "line": 4,
+        "name": "Test my POST request test",
+        "description": "",
+        "id": "first-rest-assured-test-post;test-my-post-request-test",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 5,
+            "name": "user hit the post request from text file",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 6,
+            "name": "user validate the id is not null",
+            "match": {},
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "First Rest Assured test POST",
+    "description": "",
+    "id": "first-rest-assured-test-post",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/com/basic/postFromTextFileFF/PostFromTextFile.feature",
+    "tags": []
+  }
+]

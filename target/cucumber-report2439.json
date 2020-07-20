@@ -1,0 +1,73 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2020-07-20T10:02:49.197Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.basic.hooksOfCucu.TestHooks.testBaseURI()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.basic.hooksOfCucu.TestHooks.aaa()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "Test my Get Method",
+        "description": "",
+        "id": "first-rest-assured-test;test-my-get-method",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.basic.hooksOfCucu.TestHooks.a1()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.basic.hooksOfCucu.TestHooks.bbb()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2686000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user hit the get request",
+            "match": {
+              "location": "com.basic.hooksOfCucu.TestHooks.user_hit_the_get_request()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      }
+    ],
+    "name": "First Rest Assured test",
+    "description": "",
+    "id": "first-rest-assured-test",
+    "keyword": "Feature",
+    "uri": "classpath:com/basic/hooksOfCucu/HooksTesting.feature",
+    "tags": []
+  }
+]

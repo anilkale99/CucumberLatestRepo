@@ -1,0 +1,230 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2020-07-20T10:02:48.959Z",
+        "line": 4,
+        "name": "Test my Get Method101",
+        "description": "",
+        "id": "first-get-rest-assured-test101;test-my-get-method101",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 5,
+            "name": "user start the rest asured test",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 6,
+            "name": "user hit the get request",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 7,
+            "name": "user checks the \"30\" count or size",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 8,
+            "name": "user checks data at path \"MRData.limit\" having value \"30\" in jason",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 9,
+            "name": "user checks data at path \"MRData.CircuitTable.Circuits[0].circuitId\" having value \"albert_park\" in jason",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 10,
+            "name": "user checks data at path \"MRData.CircuitTable.Circuits[3].circuitId\" having value \"MOnaco\" in jason",
+            "match": {},
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "First GET Rest Assured test101",
+    "description": "",
+    "id": "first-get-rest-assured-test101",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/com/basic/getRequestBasicsFF/GetRequestTesting.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2020-07-20T10:02:48.988Z",
+        "line": 4,
+        "name": "Test my Get Method101",
+        "description": "",
+        "id": "first-get-rest-assured-test101;test-my-get-method101",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 5,
+            "name": "user start the rest asured test",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 6,
+            "name": "user hit the get request",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 7,
+            "name": "user checks the \"30\" count or size",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 8,
+            "name": "user checks data at path \"MRData.limit\" having value \"30\" in jason",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 9,
+            "name": "user checks data at path \"MRData.CircuitTable.Circuits[0].circuitId\" having value \"albert_park\" in jason",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 10,
+            "name": "user checks data at path \"MRData.CircuitTable.Circuits[3].circuitId\" having value \"BAK\" in jason",
+            "match": {},
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "First GET Rest Assured test101",
+    "description": "",
+    "id": "first-get-rest-assured-test101",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/com/basic/getRequestBasicsFF/GetRequestTesting2.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2020-07-20T10:02:49.008Z",
+        "line": 4,
+        "name": "Test my Get Method101",
+        "description": "",
+        "id": "first-get-rest-assured-test101;test-my-get-method101",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 5,
+            "name": "user start the rest asured test",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 6,
+            "name": "user hit the get request",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 7,
+            "name": "user checks the \"30\" count or size",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 8,
+            "name": "user checks data at path \"MRData.limit\" having value \"30\" in jason",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 9,
+            "name": "user checks data at path \"MRData.CircuitTable.Circuits[0].circuitId\" having value \"albert_park\" in jason",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 10,
+            "name": "user checks data at path \"MRData.CircuitTable.Circuits[3].circuitId\" having value \"BAK\" in jason",
+            "match": {},
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "First GET Rest Assured test101",
+    "description": "",
+    "id": "first-get-rest-assured-test101",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/com/basic/getRequestBasicsFF/GetRequestTesting3.feature",
+    "tags": []
+  }
+]
