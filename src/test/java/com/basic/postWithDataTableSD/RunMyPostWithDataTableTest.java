@@ -16,7 +16,7 @@ import io.cucumber.junit.CucumberOptions;
 			glue={"com/basic/postWithDataTableSD/"},
 			plugin={"pretty",
 					"html:target/cucumber-htmlreport",
-					"json:target/cucumber-report223.json"
+					"json:target/json-report/cucumber-report223.json"
 			}
 		)
 		

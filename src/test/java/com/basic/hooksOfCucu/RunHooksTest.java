@@ -16,7 +16,7 @@ import io.restassured.specification.RequestSpecification;
 @CucumberOptions(
 		plugin={"pretty",
 				"html:target/cucumber-htmlreport",
-				"json:target/cucumber-report2439.json"
+				"json:target/json-report/cucumber-report2439.json"
 		})
 
 public class RunHooksTest {

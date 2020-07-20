@@ -13,7 +13,7 @@ import io.cucumber.junit.CucumberOptions;
 		glue={"com/basic/MyFirstSelenium/"},
 		plugin={"pretty",
 				"html:target/cucumber-htmlreport",
-				"json:target/cucumber-report51131.json"
+				"json:target/json-report/cucumber-report51131.json"
 		}
 
 		

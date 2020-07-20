@@ -12,7 +12,7 @@ import io.cucumber.junit.CucumberOptions;
 		glue={"com/basic/getRequestBasicsSD/"},
 		plugin={"pretty",
 				"html:target/cucumber-htmlreport",
-				"json:target/cucumber-report22711.json"
+				"json:target/json-report/cucumber-report22711.json"
 		}
 
 		

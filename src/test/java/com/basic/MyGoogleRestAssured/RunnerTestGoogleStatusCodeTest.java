@@ -12,7 +12,7 @@ import io.cucumber.junit.CucumberOptions;
 		glue={"com/basic/MyGoogleRestAssured/"},
 		plugin={"pretty",
 				"html:target/cucumber-htmlreport",
-				"json:target/cucumber-report58434.json"
+				"json:target/json-report/cucumber-report58434.json"
 		}
 
 		
