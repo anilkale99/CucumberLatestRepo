@@ -9,7 +9,7 @@ import io.cucumber.junit.CucumberOptions;
 @CucumberOptions(
 		
 		features= {"src/test/resources/com/basic/getRequestBasicsFF/"},
-		glue={"com/basic/getRequestBasicsSD/"},
+		glue={"com.basic.getRequestBasicsSD"},
 		plugin={"pretty",
 				"html:target/cucumber-htmlreport",
 				"json:target/json-report/cucumber-report22711.json"

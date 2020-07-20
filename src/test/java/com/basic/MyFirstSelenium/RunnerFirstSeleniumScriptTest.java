@@ -10,7 +10,7 @@ import io.cucumber.junit.CucumberOptions;
 		
 		features= {"src/test/resources/com/basic/MyFirstSelenium/FirstSeleniumScriptFF2.feature",
 				"src/test/resources/com/basic/MyFirstSelenium/FirstSeleniumScriptFF.feature"},
-		glue={"com/basic/MyFirstSelenium/"},
+		glue={"com.basic.MyFirstSelenium"},
 		plugin={"pretty",
 				"html:target/cucumber-htmlreport",
 				"json:target/json-report/cucumber-report51131.json"

@@ -3,7 +3,7 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2020-07-20T10:02:47.728Z",
+        "start_timestamp": "2020-07-20T11:02:47.054Z",
         "line": 4,
         "name": "Test my Delete request",
         "description": "",
@@ -13,7 +13,6 @@
         "steps": [
           {
             "result": {
-              "duration": 1000000,
               "status": "passed"
             },
             "line": 5,

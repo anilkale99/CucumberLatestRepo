@@ -10,7 +10,7 @@ import io.cucumber.junit.CucumberOptions;
 		
 		features= {"src/test/resources/com/basic/MyGoogleRestAssured/MyFeatureFile.feature",
 				"src/test/resources/com/basic/MyGoogle22/MyFeatureFile.feature"},
-		glue	= {"com/basic/MyGoogleRestAssured/"},
+		glue	= {"com.basic.MyGoogleRestAssured"},
 		monochrome=true
 		
 		

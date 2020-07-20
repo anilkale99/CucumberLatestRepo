@@ -9,7 +9,7 @@ import io.cucumber.junit.CucumberOptions;
 @CucumberOptions(
 		
 		features= {"src/test/resources/com/basic/MyGoogleRestAssured/"},
-		glue={"com/basic/MyGoogleRestAssured/"},
+		glue={"com.basic.MyGoogleRestAssured"},
 		plugin={"pretty",
 				"html:target/cucumber-htmlreport",
 				"json:target/json-report/cucumber-report58434.json"

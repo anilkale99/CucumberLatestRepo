@@ -9,7 +9,7 @@ import io.cucumber.junit.CucumberOptions;
 @CucumberOptions(
 		
 		features= {"src/test/resources/com/basic/HeadersValidationFF/"},
-		glue={"com/basic/HeadersValidationSD/"},
+		glue={"com.basic.HeadersValidationSD"},
 		monochrome=true,
 		plugin={"pretty",
 				"html:target/cucumber-htmlreport",

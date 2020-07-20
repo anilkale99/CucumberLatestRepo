@@ -9,7 +9,7 @@ import io.cucumber.junit.CucumberOptions;
 @CucumberOptions(
 		
 		features= {"src/test/resources/com/basic/datadrivenForGetFF/"},
-		glue={"com/basic/datadrivenForGetSD/"},
+		glue={"com.basic.datadrivenForGetSD"},
 		monochrome=true,
 		plugin={"pretty",
 				"html:target/cucumber-htmlreport",

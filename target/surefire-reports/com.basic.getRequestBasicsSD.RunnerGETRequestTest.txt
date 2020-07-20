@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: com.basic.getRequestBasicsSD.RunnerGETRequestTest
 -------------------------------------------------------------------------------
-Tests run: 3, Failures: 0, Errors: 0, Skipped: 3, Time elapsed: 0.157 sec
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 3, Time elapsed: 0.342 sec

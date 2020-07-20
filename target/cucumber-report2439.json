@@ -3,7 +3,7 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2020-07-20T10:02:49.197Z",
+        "start_timestamp": "2020-07-20T11:02:49.336Z",
         "before": [
           {
             "result": {
@@ -11,15 +11,16 @@
               "status": "passed"
             },
             "match": {
-              "location": "com.basic.hooksOfCucu.TestHooks.testBaseURI()"
+              "location": "com.basic.hooksOfCucu.TestHooks.aaa()"
             }
           },
           {
             "result": {
+              "duration": 2000000,
               "status": "passed"
             },
             "match": {
-              "location": "com.basic.hooksOfCucu.TestHooks.aaa()"
+              "location": "com.basic.hooksOfCucu.TestHooks.testBaseURI()"
             }
           }
         ],
@@ -30,10 +31,11 @@
         "after": [
           {
             "result": {
+              "duration": 1000000,
               "status": "passed"
             },
             "match": {
-              "location": "com.basic.hooksOfCucu.TestHooks.a1()"
+              "location": "com.basic.hooksOfCucu.TestHooks.bbb()"
             }
           },
           {
@@ -41,7 +43,7 @@
               "status": "passed"
             },
             "match": {
-              "location": "com.basic.hooksOfCucu.TestHooks.bbb()"
+              "location": "com.basic.hooksOfCucu.TestHooks.a1()"
             }
           }
         ],
@@ -50,7 +52,7 @@
         "steps": [
           {
             "result": {
-              "duration": 2686000000,
+              "duration": 2383000000,
               "status": "passed"
             },
             "line": 5,

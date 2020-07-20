@@ -13,7 +13,7 @@ import io.cucumber.junit.CucumberOptions;
 			monochrome=true,
 			dryRun=false,
 			features= {"src/test/resources/com/basic/postUpdatedJsonFF/"},
-			glue={"com/basic/postUpdatedJsonSD/"},
+			glue={"com.basic.postUpdatedJsonSD"},
 			plugin={"pretty",
 					"html:target/cucumber-htmlreport",
 					"json:target/json-report/cucumber-report774.json"

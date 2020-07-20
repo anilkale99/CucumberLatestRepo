@@ -13,7 +13,7 @@ import io.cucumber.junit.CucumberOptions;
 			monochrome=true,
 			dryRun=false,
 			features= {"src/test/resources/com/basic/postWithDataTableFF/"},
-			glue={"com/basic/postWithDataTableSD/"},
+			glue={"com.basic.postWithDataTableSD"},
 			plugin={"pretty",
 					"html:target/cucumber-htmlreport",
 					"json:target/json-report/cucumber-report223.json"

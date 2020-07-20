@@ -15,7 +15,7 @@ import io.cucumber.junit.CucumberOptions;
 		monochrome=true,
 		dryRun=true,
 		features= {"src/test/resources/com/basic/tagsOfcucumberFF/"},
-		glue={"com/basic/tagsOfcucumberSD/"},
+		glue={"com.basic.tagsOfcucumberSD/"},
 		plugin={"pretty",
 				"html:target/cucumber-htmlreport",
 				"json:target/json-report/cucumber-report11121.json"

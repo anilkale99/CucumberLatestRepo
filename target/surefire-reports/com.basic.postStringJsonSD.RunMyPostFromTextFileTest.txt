@@ -1,8 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: com.basic.postStringJsonSD.RunMyPostFromTextFileTest
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.452 sec <<< FAILURE!
-POST request with json as string testing(POST request with json as string)  Time elapsed: 0.401 sec  <<< ERROR!
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.444 sec <<< FAILURE!
+POST request with json as string testing(POST request with json as string)  Time elapsed: 0.413 sec  <<< ERROR!
 javax.net.ssl.SSLHandshakeException: Received fatal alert: handshake_failure
 	at sun.security.ssl.Alerts.getSSLException(Unknown Source)
 	at sun.security.ssl.Alerts.getSSLException(Unknown Source)

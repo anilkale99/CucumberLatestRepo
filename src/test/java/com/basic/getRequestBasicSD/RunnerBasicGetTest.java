@@ -9,7 +9,7 @@ import io.cucumber.junit.CucumberOptions;
 @CucumberOptions(
 		
 		features= {"src/test/resources/com/basic/getRequestBasicFF/"},
-		glue	= {"com/basic/getRequestBasicSD/"},
+		glue	= {"com.basic.getRequestBasicSD"},
 		monochrome=true
 		
 		

@@ -13,7 +13,7 @@ import io.cucumber.junit.CucumberOptions;
 			monochrome=true,
 			dryRun=false,
 			features= {"src/test/resources/com/basic/postFromTextFileFF/"},
-			glue={"com/basic/postFromTextFileSD/"},
+			glue={"com.basic.postFromTextFileSD"},
 			plugin={"pretty",
 					"html:target/cucumber-htmlreport",
 					"json:target/json-report/cucumber-report5434.json"

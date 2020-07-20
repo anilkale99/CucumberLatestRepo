@@ -1,8 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: com.basic.deleteRequestSD.RunDeleteRequestTest
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.805 sec <<< FAILURE!
-Test my Delete request(Delete request testing)  Time elapsed: 0.764 sec  <<< ERROR!
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 1.095 sec <<< FAILURE!
+Test my Delete request(Delete request testing)  Time elapsed: 1.013 sec  <<< ERROR!
 javax.net.ssl.SSLHandshakeException: Received fatal alert: handshake_failure
 	at sun.security.ssl.Alerts.getSSLException(Unknown Source)
 	at sun.security.ssl.Alerts.getSSLException(Unknown Source)
