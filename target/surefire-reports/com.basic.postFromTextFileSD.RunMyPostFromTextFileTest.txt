@@ -1,8 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: com.basic.postFromTextFileSD.RunMyPostFromTextFileTest
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.477 sec <<< FAILURE!
-Test my POST request test(First Rest Assured test POST)  Time elapsed: 0.41 sec  <<< ERROR!
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.459 sec <<< FAILURE!
+Test my POST request test(First Rest Assured test POST)  Time elapsed: 0.457 sec  <<< ERROR!
 javax.net.ssl.SSLHandshakeException: Received fatal alert: handshake_failure
 	at sun.security.ssl.Alerts.getSSLException(Unknown Source)
 	at sun.security.ssl.Alerts.getSSLException(Unknown Source)

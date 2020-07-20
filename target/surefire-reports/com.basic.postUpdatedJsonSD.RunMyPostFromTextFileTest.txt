@@ -1,8 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: com.basic.postUpdatedJsonSD.RunMyPostFromTextFileTest
 -------------------------------------------------------------------------------
-Tests run: 4, Failures: 0, Errors: 4, Skipped: 0, Time elapsed: 1.651 sec <<< FAILURE!
-Test my POST request test11(First Rest Assured test POST)  Time elapsed: 0.37 sec  <<< ERROR!
+Tests run: 4, Failures: 0, Errors: 4, Skipped: 0, Time elapsed: 1.424 sec <<< FAILURE!
+Test my POST request test11(First Rest Assured test POST)  Time elapsed: 0.276 sec  <<< ERROR!
 javax.net.ssl.SSLHandshakeException: Received fatal alert: handshake_failure
 	at sun.security.ssl.Alerts.getSSLException(Unknown Source)
 	at sun.security.ssl.Alerts.getSSLException(Unknown Source)
@@ -78,7 +78,7 @@ javax.net.ssl.SSLHandshakeException: Received fatal alert: handshake_failure
 	at com.basic.postUpdatedJsonSD.MyPostFromTextFile.user_hit_the_post_request_with_json_data(MyPostFromTextFile.java:45)
 	at ?.user hit the post request with "Kshipra" name(file:///D:/IBM/workspace/CucumberLatestBuild/src/test/resources/com/basic/postUpdatedJsonFF/PostUpdatedJson.feature:5)
 
-Test my POST request test22(First Rest Assured test POST)  Time elapsed: 0.353 sec  <<< ERROR!
+Test my POST request test22(First Rest Assured test POST)  Time elapsed: 0.372 sec  <<< ERROR!
 javax.net.ssl.SSLHandshakeException: Received fatal alert: handshake_failure
 	at sun.security.ssl.Alerts.getSSLException(Unknown Source)
 	at sun.security.ssl.Alerts.getSSLException(Unknown Source)
@@ -154,7 +154,7 @@ javax.net.ssl.SSLHandshakeException: Received fatal alert: handshake_failure
 	at com.basic.postUpdatedJsonSD.MyPostFromTextFile.user_hit_the_post_request_with_json_data(MyPostFromTextFile.java:45)
 	at ?.user hit the post request with "Gyaneshwar" name(file:///D:/IBM/workspace/CucumberLatestBuild/src/test/resources/com/basic/postUpdatedJsonFF/PostUpdatedJson.feature:9)
 
-Test my POST request test(First Rest Assured test POST)  Time elapsed: 0.436 sec  <<< ERROR!
+Test my POST request test(First Rest Assured test POST)  Time elapsed: 0.375 sec  <<< ERROR!
 javax.net.ssl.SSLHandshakeException: Received fatal alert: handshake_failure
 	at sun.security.ssl.Alerts.getSSLException(Unknown Source)
 	at sun.security.ssl.Alerts.getSSLException(Unknown Source)
@@ -230,7 +230,7 @@ javax.net.ssl.SSLHandshakeException: Received fatal alert: handshake_failure
 	at com.basic.postUpdatedJsonSD.MyPostFromTextFile.user_hit_the_post_request_with_json_data(MyPostFromTextFile.java:45)
 	at ?.user hit the post request with "Anagha" name(file:///D:/IBM/workspace/CucumberLatestBuild/src/test/resources/com/basic/postUpdatedJsonFF/PostUpdatedJson.feature:13)
 
-Test my POST request test(First Rest Assured test POST)  Time elapsed: 0.387 sec  <<< ERROR!
+Test my POST request test(First Rest Assured test POST)  Time elapsed: 0.365 sec  <<< ERROR!
 javax.net.ssl.SSLHandshakeException: Received fatal alert: handshake_failure
 	at sun.security.ssl.Alerts.getSSLException(Unknown Source)
 	at sun.security.ssl.Alerts.getSSLException(Unknown Source)

@@ -1,8 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: com.basic.postWithDataTableSD.RunMyPostWithDataTableTest
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE!
-Test my POST request test(First Rest Assured test POST)  Time elapsed: 0 sec  <<< ERROR!
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.022 sec <<< FAILURE!
+Test my POST request test(First Rest Assured test POST)  Time elapsed: 0.01 sec  <<< ERROR!
 java.nio.file.NoSuchFileException: D:\IBM\workspace\CucuRestAssured\src\test\java\com\basic\postFromTextFileSD\user.json
 	at sun.nio.fs.WindowsException.translateToIOException(Unknown Source)
 	at sun.nio.fs.WindowsException.rethrowAsIOException(Unknown Source)
