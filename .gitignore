@@ -1,0 +1,3 @@
+target/*
+target/*.json
+target/surefire-reports/**.xml
